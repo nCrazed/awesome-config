@@ -359,6 +359,10 @@ awful.rules.rules = {
                      buttons = clientbuttons } },
     { rule = { class = "MPlayer" },        -- TODO change to mpv and move to tags[1][5]
       properties = { floating = true } },
+    { rule = { class = "jetbrains-phpstorm" },
+      properties = { tag = tags[1][1] } },
+    { rule = { class = "csgo_linux" },
+      properties = { tag = tags[1][1] } },
     { rule = { class = "Firefox" },        -- TODO change to browsers in general
       properties = { tag = tags[1][2] } },
     { rule = { class = "Skype" },
