@@ -363,8 +363,14 @@ awful.rules.rules = {
       properties = { tag = tags[1][2] } },
     { rule = { class = "Skype" },
       properties = { tag = tags[1][4] } },
+    { rule = { class = "Steam", name = "Friends" },
+      properties = { tag = tags[1][4] } },
+    { rule = { class = "Steam", name = ".- Chat" },
+      properties = { tag = tags[1][4] } },
     { rule = { class = "Mumble" },
       properties = { tag = tags[1][6] } },
+    { rule = { class = "Steam", name = "Steam" },
+      properties = { tag = tags[1][7] } },
     { rule = { class = "Thunderbird" },    -- TODO change to mail clients in general
       properties = { tag = tags[1][9] } },
 }
